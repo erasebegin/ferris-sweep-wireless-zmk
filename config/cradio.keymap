@@ -68,10 +68,10 @@
 
         left_layer {
             bindings = <
-&kp ESCAPE  &kp GRAVE       &kp UP_ARROW  &kp LEFT_GUI     &to 2   &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp PAGE_UP    &kp SINGLE_QUOTE  &kp NON_US_BACKSLASH
-&kp TAB     &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &to 3   &kp CAPS           &kp HOME           &kp PAGE_DOWN  &kp END           &kp LEFT_ALT
-&kp K_UNDO  &kp K_CUT       &kp K_COPY    &kp K_PASTE      &to 0   &kp RIGHT_COMMAND  &kp BACKSPACE      &kp DELETE     &kp INSERT        &kp RIGHT_CONTROL
-                                          &trans           &trans  &trans             &trans
+&kp ESCAPE  &kp GRAVE       &kp UP_ARROW  &kp LEFT_GUI     &to 2   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PAGE_UP    &kp SINGLE_QUOTE  &kp NON_US_BACKSLASH
+&kp TAB     &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &to 3   &kp CAPS          &kp HOME           &kp PAGE_DOWN  &kp END           &kp RIGHT_ALT
+&kp K_UNDO  &kp K_CUT       &kp K_COPY    &kp K_PASTE      &to 0   &none             &kp BACKSPACE      &kp DELETE     &kp INSERT        &kp LEFT_CONTROL
+                                          &trans           &trans  &trans            &trans
             >;
         };
 
@@ -79,17 +79,17 @@
             bindings = <
 &kp F1        &kp F2        &kp F3        &kp F4        &kp F5  &kp F6        &kp F7        &kp F8           &kp F9         &kp F10
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp N7        &kp N8           &kp N9         &kp N0
-&kp F11       &kp F12       &kp LBKT      &kp RBKT      &to 0   &kp KP_PLUS   &kp KP_MINUS  &kp KP_MULTIPLY  &kp KP_DIVIDE  &tog 0
-                                          &trans        &trans  &trans        &trans
+&kp F11       &kp F12       &kp LBKT      &kp RBKT      &to 0   &kp KP_PLUS   &kp KP_MINUS  &kp KP_MULTIPLY  &kp KP_DIVIDE  &to 0
+                                          &trans        &trans  &trans        &mo 1
             >;
         };
 
         tri_layer {
             bindings = <
-&bt BT_CLR     &bt BT_PRV     &bt BT_NXT     &bt BT_CLR_ALL  &to 0          &none   &none   &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
-&bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3    &bt BT_SEL 4   &none   &none   &none       &none              &none
-&bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3   &bt BT_DISC 4  &none   &none   &none       &none              &none
-                                             &trans          &trans         &trans  &trans
+&bt BT_CLR     &bt BT_PRV     &bt BT_NXT     &bt BT_CLR_ALL  &to 0          &to 0   &none  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3    &bt BT_SEL 4   &none   &none  &none       &none              &none
+&bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3   &bt BT_DISC 4  &none   &none  &none       &none              &none
+                                             &trans          &trans         &trans  &mo 1
             >;
         };
     };
