@@ -1,1 +1,1 @@
-# zmk-nrfmicro-cradio-pri
+# Ferris Sweep Wireless Config
