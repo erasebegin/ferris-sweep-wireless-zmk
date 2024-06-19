@@ -1,1 +1,1 @@
-# Ferris Sweep Wireless Config
+# Ferris Sweep Wireless ZMK Config
