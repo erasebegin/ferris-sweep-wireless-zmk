@@ -68,10 +68,10 @@
 
         symbols+num {
             bindings = <
-&kp ESCAPE  &kp GRAVE       &kp UP_ARROW  &kp LEFT_GUI     &to 2   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PAGE_UP    &kp SINGLE_QUOTE  &kp NON_US_BACKSLASH
-&kp TAB     &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &to 3   &kp CAPS          &kp HOME           &kp PAGE_DOWN  &kp END           &kp RIGHT_ALT
-&kp K_UNDO  &kp K_CUT       &kp K_COPY    &kp K_PASTE      &to 0   &none             &kp BACKSPACE      &kp DELETE     &kp INSERT        &kp LEFT_CONTROL
-                                          &trans           &trans  &trans            &trans
+&kp ESCAPE  &kp GRAVE      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK          &kp TILDE       &kp PLUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
+&kp TAB     &kp PERCENT    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NON_US_BACKSLASH  &kp UNDERSCORE  &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6
+&kp K_UNDO  &kp AMPERSAND  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH              &kp N0          &kp EQUAL  &kp N7        &kp N8        &kp N9
+                                                 &trans                 &trans                &trans          &trans
             >;
         };
 
