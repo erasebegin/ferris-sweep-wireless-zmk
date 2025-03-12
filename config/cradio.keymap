@@ -77,10 +77,10 @@
 
         nav {
             bindings = <
-&none         &kp LG(LS(S))  &kp LG(LA(I))  &kp F4        &kp F5  &kp F6          &kp F7        &kp F8           &kp F9         &kp F10
-&kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3   &kp NUMBER_4  &kp N5  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN         &kp RIGHT      &kp N0
-&to 2         &kp F12        &kp LBKT       &kp RBKT      &to 0   &kp KP_PLUS     &kp KP_MINUS  &kp KP_MULTIPLY  &kp KP_DIVIDE  &to 0
-                                            &trans        &trans  &trans          &mo 1
+&none         &kp LS(LC(TAB))   &kp LC(TAB)        &kp F4              &kp F5         &kp F6          &kp F7        &kp F8           &kp F9         &kp F10
+&kp NUMBER_1  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NUMBER_4        &kp N5         &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN         &kp RIGHT      &kp N0
+&to 2         &kp LG(LS(TAB))   &kp LG(TAB)        &kp RBKT            &to 0          &kp KP_PLUS     &kp KP_MINUS  &kp KP_MULTIPLY  &kp KP_DIVIDE  &to 0
+                                                   &kp LC(LEFT_ARROW)  &kp LC(RIGHT)  &trans          &mo 1
             >;
         };
 
