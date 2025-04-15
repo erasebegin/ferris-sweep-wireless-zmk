@@ -29,12 +29,10 @@
 
 &sl {
     release-after-ms = <800>;
-    no-sticky-after-hold-ms = <400>;
 };
 
 &sk {
     release-after-ms = <500>;
-    no-sticky-after-hold-ms = <300>;
     quick-release;
 };
 
