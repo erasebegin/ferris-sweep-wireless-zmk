@@ -203,7 +203,7 @@
         navigation_layer {
             label = "NAV";
             bindings = <
-&trans        &kp LC(TAB)        &kp LC(LS(TAB))   &trans      &trans        &kp C_MUTE  &kp PSCRN   &kp C_VOL_UP  &kp C_VOL_DN    &media
+&trans        &kp LC(LS(TAB))        &kp LC(TAB)   &trans      &trans        &kp C_MUTE  &kp PSCRN   &kp C_VOL_UP  &kp C_VOL_DN    &media
 &kp INS       &hx_left           &hx_right         &none       &none         &mt LA(LEFT) LEFT       &kp DOWN      &kp UP          &mt LA(RIGHT) RIGHT  &output
 &kp DEL       &kp LG(LS(TAB))    &kp LG(TAB)       &trans      &kp PG_DN     &trans                  &trans        &kp SCNSHT      &kp LG(L)  &kp TSK_MGR
                                           &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &trans  &trans
